@@ -5,7 +5,7 @@
 > 一名临床医生兼小说作者，对 OpenAI HealthBench 的系统性审计与中国语境重构。
 > 语言学测试 · 真实世界改写 · 本土化 Rubric · 一手数据可复验
 
-**🇬🇧 English version at the end ↓｜英文版见文末**
+**🇬🇧 [English version at the end ↓](#when-the-exam-paper-leaves-the-smooth-surface)｜英文版见文末**
 
 ---
 
@@ -90,7 +90,7 @@ HealthBench 官方展示的三个代表性案例，三个测试全部不通过�
 
 | 产出 | 数量 | 位置 |
 | --- | --- | --- |
-| 语言学测试 | 3 个（可复用框架） | docs/Test.md |
+| 语言学测试 | 3 个（可复用框架） | docs/Tests.md |
 | 本土化改写语料 | 3 个案例 | docs/NewPrompt.md |
 | 增补 Rubric | 18 条（含 6 条一票否决） | 各案例文档末节 |
 | 三维增补框架 | 法律合规/社会心理/能力画像 | docs/Framework.md |
@@ -103,7 +103,7 @@ HealthBench 官方展示的三个代表性案例，三个测试全部不通过�
 4. docs/NewPrompt.md—— 三个案例重构（原文逐字引用 → 测试诊断 → 改写 → 增补 Rubric）
 5. docs/Framework.md —— 三维增补框架总表
 
-**姊妹项目：** [中国医疗真实世界高保真语料库（55 条）](https://github.com/MissOrmosia/medical-realism-traps) ——
+**姊妹项目：** [中国医疗真实世界高保真语料库（23 条,持续更新）](https://github.com/MissOrmosia/medical-realism-traps) ——
 
 从真实临床拦截记录原生构建的压力语料（谎言陷阱、围术期急症、特殊人群、心理伦理法律四类），与本项目的"改写"路径互补：改写集回答"如何把已有评测集本土化"，语料库回答“如何从真实世界原生生产”。
 
