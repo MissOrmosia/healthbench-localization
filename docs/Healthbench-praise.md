@@ -1,6 +1,6 @@
 # HealthBench 做对了什么
 
-**🇬🇧 English version at the end ↓｜英文版见文末**
+**GB [English version at the end ↓](#what-healthbench-got-right) | 英文版见文末**
 
 在批评之前，先把成绩说清楚。HealthBench 的四个设计值得肯定：
 
