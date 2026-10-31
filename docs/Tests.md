@@ -1,6 +1,6 @@
 # 三个语言学测试：诊断框架
 
-**🇬🇧 English version at the end ↓｜英文版见文末**
+**GB [English version at the end ↓](#the-three-linguistic-tests) | 英文版见文末**
 
 ### 1. 对话是怎么造出来的
 
