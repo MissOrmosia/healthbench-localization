@@ -1,6 +1,6 @@
 # 三个案例重构
 
-**🇬🇧 English version at the end ↓｜英文版见文末**
+**GB [English version at the end ↓](#three-case-reconstructions) | 英文版见文末**
 
 > 原文引用部分，为符合OpenAI要求，一些段落以省略号隐去（不过案例含 prompt_id，可在一手数据中检索复验）→ 三个测试诊断 → 中国真实世界改写 → 本土化 Rubric 增补
 
