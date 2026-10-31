@@ -116,20 +116,30 @@ HealthBench 官方展示的三个代表性案例，三个测试全部不通过�
 - **案例 prompt_id**：`5f45aff9-bed0-425f-aa8b-345524f13986`（急救）/ `1f548d5b-cd00-49a0-b327-283a2e00debd`（产后抑郁）/ `6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2`（药物相互作用）——均可在一手文件中直接检索复验；
 - **审计工具**：解析与统计由Kimi K3及K2.6分别进行过各一次，并人工复核。
 
-## 使用边界与声明
+## 使用边界与免责声明 
 
-- OpenAI 官方要求不将样例明文公开上网：本仓库仅引用评测所必需的少量条目并标注出处，全部用于评测方法研究，且部分prompt内容会隐去部分；如需大规模使用请从官方渠道下载原始数据；
-- 本项目不评论任何模型产品的优劣，所有 rubric 增补仅针对评测标准本身；
-- 相关方法（证据锚定、条目冻结、剧情期口径）继承自[红队测试项目](https://github.com/MissOrmosia/llm-medical-eval-framework)，两项目互为姊妹篇。
+**本项目系作者（临床医生兼独立 AI 研究者）的个人业余研究成果，不代表作者供职机构的任何官方立场、政策或意见。**
 
-## 对国际友人的一些想法
+1. **数据隐私与合规**：本项目对 OpenAI HealthBench 的引用、审计与改写，均基于公开数据进行，**未使用任何未脱敏的院内临床数据**。文中提及的临床案例与叙事陷阱，系基于作者临床经验的文学化重构与脱敏抽象，不涉及特定真实患者，**亦不构成任何形式的专业医疗建议**。
+2. **OpenAI 官方政策**：OpenAI 要求不将样例明文公开上网：本仓库仅引用评测所必需的少量条目并标注出处，全部用于评测方法研究，且部分 prompt 内容会隐去；如需大规模使用请从官方渠道下载原始数据；
+3. **客观中立**：本项目不评论任何模型产品的优劣，所有 rubric 增补仅针对评测标准本身；严禁未经授权将本仓库内容直接用于商业或实际临床诊疗。
+4. **方法传承**：相关方法（证据锚定、条目冻结、剧情期口径）继承自 [红队测试项目](https://github.com/MissOrmosia/llm-medical-eval-framework)，两项目互为姊妹篇。
 
-- 本项目基于作者的国籍和背景展开，但方法论是类似的、可迁移的——结合当地实际情况，考虑法律现实和文化语境，以及人类共通的心理因素，制定合乎标准的数据集。日本学者已经在做此事，其他国家的研究者也可以采用这套方法论进行本土化改写。
+## 致国际同行：方法论的普适性与跨文化迁移
+
+- 本项目基于作者的中国临床背景展开，但其所用的方法论具有广泛的迁移价值：即结合当地的法律现实、文化语境以及人类共通的心理因素，去构建真正贴合真实世界的评测基准。目前，日本学者已在开展类似的 HealthBench 本土化研究；我们欢迎其他国家的学者采用相同的框架，推进各自语境下的基准测试重构
 
 ## License
 
 MIT（与 HealthBench 数据源协议一致）。
 
+## ⚠️ 免责声明
+
+**中文**：本项目系作者（临床医生兼独立 AI 研究者）的个人业余研究成果，**不代表**作者供职机构的任何官方立场。本项目的初衷是为了促进医疗大模型评测标准的科学化与本土化。
+
+1. 本项目对 OpenAI HealthBench 的引用、审计与改写，均基于公开数据进行，未使用任何未脱敏的院内临床数据。
+2. 文中提及的临床案例与叙事陷阱，系基于作者临床经验的文学化重构与脱敏抽象，**不涉及特定真实患者，亦不构成医疗建议**。
+3. 欢迎学术界与工业界同行基于本框架进行交流，但严禁未经授权将本仓库内容直接用于商业或实际临床诊疗。
 ---
 
 # When the Exam Paper Leaves the Smooth Surface
@@ -233,15 +243,19 @@ All quotations in this project were verified verbatim by the author against offi
 - **Case prompt_ids**: `5f45aff9-...` (first aid) / `1f548d5b-...` (postpartum) / `6f7a2ee9-...` (drug interaction) — all directly retrievable from the source file;
 - **Audit tooling**: parsing and statistics scripts executed once each by Kimi K3 and K2.6 respectively, with manual review.
 
-## A Note to International Readers
+## A Note to International Researchers: Methodological Transferability
 
-- This project proceeds from the author's nationality and background, but the methodology is transferable: adapt to local legal realities and cultural contexts, and to shared human psychology, to build benchmarks that actually fit. Japanese researchers are already doing this; researchers in other countries can apply the same methodology for their own localization.
+While this project originates from the author's Chinese clinical background, the methodology is highly transferable. It advocates for adapting benchmarks to local legal realities, cultural contexts, and shared human psychology. Japanese researchers are already pioneering similar localization efforts for HealthBench; we welcome researchers from other countries to apply this framework to reconstruct benchmarks that actually fit their own real-world scenarios.
 
 ## Usage Boundaries & Disclaimers
 
-- OpenAI requests that dataset samples not be republished verbatim: this repository quotes only the minimum necessary for evaluation research, with attribution, and portions of prompts redacted; for large-scale use, download from official channels;
-- This project makes no judgment on the quality of any model product; all rubric augmentations target evaluation standards only;
-- Related methods (evidence anchoring, item freezing, plot-phase protocol) are inherited from the [red-team project](https://github.com/MissOrmosia/llm-medical-eval-framework); the two projects are sister works.
+**This project is the personal research of the author (a clinician and independent AI researcher) and does not represent the official position, policies, or opinions of the author's affiliated institution.**
+
+1. **Data Privacy & Compliance**: The audit and reconstruction of OpenAI HealthBench are based solely on public data. **No unredacted clinical data from the author's institution was used.** The clinical scenarios mentioned are de-identified, literary abstractions based on clinical experience, involving no specific real patients and **constituting no medical advice**. Commercial use or application in actual clinical diagnosis is strictly prohibited without authorization.
+2. **OpenAI Policy**: OpenAI requests that dataset samples not be republished verbatim. This repository quotes only the minimum necessary for evaluation research, with attribution, and portions of prompts are redacted. For large-scale use, download from official channels.
+3. **Neutrality**: This project makes no judgment on the quality of any model product; all rubric augmentations target evaluation standards only. 
+4. **Methodology**: Related methods (evidence anchoring, item freezing, plot-phase protocol) are inherited from the [red-team project](https://github.com/MissOrmosia/llm-medical-eval-framework); the two projects are sister works.
+
 
 ## License
 
