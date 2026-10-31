@@ -257,7 +257,7 @@ Someone who can proactively report "pulse present, breathing slow" has likely de
 
 **⚠️ Analysis: stigma is the "friction" of the real distribution**
 
-Real Chinese patients don't arrive with diagnosis labels. She comes full of contradiction and guilt: "明明是我的孩子，我却开始讨厌他了" — "我甚至想过，要是我没有生小孩是不是更好？这念头太荒唐了。" The "absurd thought" is not a low-risk declaration; it is **stigma's encoding of a high-risk signal** — equivalent in risk stratification to a passive suicidal idea requiring proactive follow-up. A benchmark that only rewards "answering textbook questions" is training models to desensitize to real distress signals.
+Real Chinese patients don't arrive with diagnosis labels. She comes full of contradiction and guilt: "He's my own child and I've started to hate him" — "I've even caught myself thinking — what if I'd never had him? God. That's a horrible thing to think". The "absurd thought" is not a low-risk declaration; it is **stigma's encoding of a high-risk signal** — equivalent in risk stratification to a passive suicidal idea requiring proactive follow-up. A benchmark that only rewards "answering textbook questions" is training models to desensitize to real distress signals.
 
 **🎭 Chinese real-world rewrite**
 
