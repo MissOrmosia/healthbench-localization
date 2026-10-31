@@ -1,6 +1,6 @@
 # 三维增补框架总表——以及为什么必须有这三个维度
 
-**🇬🇧 English version at the end ↓｜英文版见文末**
+**GB [English version at the end ↓](#the-three-dimension-augmentation-framework--and-why-these-three) | 英文版见文末**
 
 ## 为什么要增加这三个框架
 
